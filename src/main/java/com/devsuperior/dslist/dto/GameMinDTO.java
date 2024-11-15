@@ -8,9 +8,9 @@ public class GameMinDTO {
 	private Integer year;
 	private String imgUrl;
 	private String shortDescription;
-	
+
 	public GameMinDTO() {
-		
+
 	}
 
 	public GameMinDTO(Game entity) {
@@ -41,6 +41,4 @@ public class GameMinDTO {
 		return shortDescription;
 	}
 
-
-	
 }
